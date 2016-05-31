@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8439FF7B1CFD944A0009DD38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8439FF7A1CFD944A0009DD38 /* main.m */; };
+		8439FF831CFD95980009DD38 /* MyMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 8439FF821CFD95980009DD38 /* MyMain.m */; };
+		8439FF861CFD95F00009DD38 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 8439FF851CFD95F00009DD38 /* NSString+MD5.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,11 @@
 /* Begin PBXFileReference section */
 		8439FF771CFD944A0009DD38 /* HelloWordOC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloWordOC; sourceTree = BUILT_PRODUCTS_DIR; };
 		8439FF7A1CFD944A0009DD38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8439FF811CFD95980009DD38 /* MyMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMain.h; sourceTree = "<group>"; };
+		8439FF821CFD95980009DD38 /* MyMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMain.m; sourceTree = "<group>"; };
+		8439FF841CFD95F00009DD38 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		8439FF851CFD95F00009DD38 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		8439FF871CFD96450009DD38 /* MainDeletage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainDeletage.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +64,12 @@
 		8439FF791CFD944A0009DD38 /* HelloWordOC */ = {
 			isa = PBXGroup;
 			children = (
+				8439FF841CFD95F00009DD38 /* NSString+MD5.h */,
+				8439FF851CFD95F00009DD38 /* NSString+MD5.m */,
 				8439FF7A1CFD944A0009DD38 /* main.m */,
+				8439FF811CFD95980009DD38 /* MyMain.h */,
+				8439FF821CFD95980009DD38 /* MyMain.m */,
+				8439FF871CFD96450009DD38 /* MainDeletage.h */,
 			);
 			path = HelloWordOC;
 			sourceTree = "<group>";
@@ -118,6 +130,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8439FF861CFD95F00009DD38 /* NSString+MD5.m in Sources */,
+				8439FF831CFD95980009DD38 /* MyMain.m in Sources */,
 				8439FF7B1CFD944A0009DD38 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +253,7 @@
 				8439FF801CFD944A0009DD38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
