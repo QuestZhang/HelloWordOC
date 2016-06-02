@@ -10,6 +10,8 @@
 
 @implementation MyMain
 
+//
+
 #pragma mark -- MainDeletage --
 
 -(void)nsNumber{
@@ -18,6 +20,8 @@
     /*这个张文强实在不会了*/
     //[salarys makeObjectsPerformSelector:@selector(addToSalary)];
     //[salarys makeObjectsPerformSelector:@selector(addToSalary:) withObject:[NSDecimalNumber numberWithInt:20]];
+    
+    
 }
 
 -(void)findFiles{
