@@ -14,5 +14,6 @@
 
 -(void)nsNumber;
 -(void)findFiles;
+-(void)nsDate;
 
 @end

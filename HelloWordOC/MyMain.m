@@ -52,6 +52,16 @@
     }
 }
 
+-(void)nsDate{
+    /*计算俩个日期之间的差*/
+    NSDate* now = [NSDate date];
+    NSDate* anHourAgo = [now dateByAddingTimeInterval:-3600];
+    NSTimeInterval timeBetween = [now timeIntervalSinceDate:anHourAgo];
+    NSLog(@"%@",@(timeBetween));
+    
+    NSDate* now1 = [NSDate date];
+}
+
 #pragma mark -- self`Method --
 
 -(void)addToSalary:(NSDecimalNumber*)inReisa{

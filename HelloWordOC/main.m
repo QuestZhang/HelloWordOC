@@ -24,7 +24,12 @@ int main(int argc, const char * argv[]) {
         
         /*读取文件*/
         if (deletage != nil && [deletage respondsToSelector:@selector(findFiles)]) {
-            [deletage findFiles];
+            //[deletage findFiles];
+        }
+        
+        /*日期处理*/
+        if (deletage != nil && [deletage respondsToSelector:@selector(nsDate)]) {
+            [deletage nsDate];
         }
         
     }
